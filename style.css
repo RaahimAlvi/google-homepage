@@ -3,6 +3,58 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%
+    margin-top: 1500 px; 
+    width: 25%  
     
+    
+    
+}
+
+#search {
+    display: block;
+    margin-left: 625px;
+    margin-right: 750px;
+    width: 25%
+     
+}
+
+.gSearch {
+
+    background-color: transparent;
+    line-height: 34px;
+    border-radius:50px;
+    border-width: 0.5px;
+    border-color: black;
+    ;
+
+}
+
+ul {
+ 
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+    position: relative;
+    top: 15 px;
+}
+
+
+
+li a {
+
+    color:rgba(0,0,0,0.87);
+    display: block;
+    padding: 4px 8px;
+    text-decoration: none;
+    float: left;
+    
+    
+}
+
+li a:hover {
+
+    text-decoration: underline;
+ 
+
 }
