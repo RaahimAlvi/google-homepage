@@ -55,6 +55,58 @@ li a {
 li a:hover {
 
     text-decoration: underline;
- 
+ }
+
+ .buttonOne {
+     background-color: #f2f2f2;
+     padding: 7px 16px;
+     margin-left: 750px ;
+     margin-top: 0px;
+     font: arial;
+     font-size: small;
+    
+ }
+ .buttonTwo {
+    background-color: #f2f2f2;
+    padding: 7px 16px;
+    margin-right: 375px;
+    margin-top: 0px;
+    font: arial;
+    font-size: small;
+}
+
+button:hover {
+
+    background-color: honeydew;
 
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: rbg(173,161,161);
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    padding-top: 50px;
+
+  }
+  
+  li {
+      display: inline-block;
+      padding-right: 10px;
+      margin-bottom: 35px;
+      
+      }
+      li:hover{
+
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      .rightFoot{
+          margin-right:1350px;
+    color: #5f6268;
+      }
