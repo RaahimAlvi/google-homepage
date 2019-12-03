@@ -14,6 +14,7 @@
     display: block;
     margin-left: 625px;
     margin-right: 750px;
+    margin-bottom: 0px;
     width: 25%
      
 }
@@ -22,9 +23,10 @@
 
     background-color: transparent;
     line-height: 34px;
-    border-radius:50px;
+    border-radius:25px;
     border-width: 0.5px;
     border-color: black;
+    margin-bottom: 0px;
     ;
 
 }
@@ -58,26 +60,28 @@ li a:hover {
  }
 
  .buttonOne {
-     background-color: #f2f2f2;
-     padding: 7px 16px;
-     margin-left: 750px ;
-     margin-top: 0px;
-     font: arial;
-     font-size: small;
-    
- }
- .buttonTwo {
     background-color: #f2f2f2;
     padding: 7px 16px;
-    margin-right: 375px;
+    margin-left: 745px ;
     margin-top: 0px;
     font: arial;
-    font-size: small;
+    font-size: 15px;
+    color: #676a70;
+   
+}
+.buttonTwo {
+   background-color: #f2f2f2;
+   padding: 7px 16px;
+   margin-right: 395px;
+   margin-top: 0px;
+   font: arial;
+   font-size: 15px;
+   color: #676a70;
 }
 
 button:hover {
 
-    background-color: honeydew;
+   border: 1px solid #f2f2f2;
 
 }
 
@@ -86,19 +90,22 @@ button:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #f2f2f2;
     color: rbg(173,161,161);
     text-align: center;
     font-family: arial;
     display: inline-block;
-    padding-top: 50px;
+    padding-top: 0px;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
 
   }
   
   li {
       display: inline-block;
       padding-right: 10px;
-      margin-bottom: 35px;
+      margin-bottom: 10px;
       
       }
       li:hover{
@@ -108,5 +115,12 @@ button:hover {
       }
       .rightFoot{
           margin-right:1350px;
+          margin-top: 0px;
+    color: #5f6268;
+      }
+
+      .leftFoot{
+        margin-top: 0px;
+        margin-left:1350px;
     color: #5f6268;
       }
