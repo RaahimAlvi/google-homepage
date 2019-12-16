@@ -63,7 +63,7 @@ li a:hover {
     background-color: #f2f2f2;
     padding: 7px 16px;
     margin-left: 745px ;
-    margin-top: 0px;
+    margin-top: -175px;
     font: arial;
     font-size: 15px;
     color: #676a70;
@@ -73,7 +73,7 @@ li a:hover {
    background-color: #f2f2f2;
    padding: 7px 16px;
    margin-right: 395px;
-   margin-top: 0px;
+   margin-top: -175px;
    font: arial;
    font-size: 15px;
    color: #676a70;
@@ -99,6 +99,7 @@ button:hover {
     line-height: 40px;
     min-width: 980px;
     border-top: 1px solid #e4e4e4;
+    padding-top: 100px;
 
   }
   
@@ -113,14 +114,31 @@ button:hover {
         text-decoration: underline;
         cursor: pointer;
       }
-      .rightFoot{
-          margin-right:1350px;
-          margin-top: 0px;
-    color: #5f6268;
+      div.rightFoot{
+        position: absolute;
+        color: #5f6268;
+        left: 10px;
+	    top: 60px;
+         }
+        
+
+      div.leftFoot{
+        position: absolute;
+        color: #5f6268;
+        right: 10px;
+	    top: 60px;
       }
 
-      .leftFoot{
-        margin-top: 0px;
-        margin-left:1350px;
-    color: #5f6268;
-      }
+     div.footer p {
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        font-size: 16px;
+        color: #5f6268;
+}
+
+div hr {
+    
+    color: black;
+    
+}
